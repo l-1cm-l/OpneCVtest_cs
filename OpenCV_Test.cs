@@ -11,7 +11,7 @@ namespace OpenCV_Test
     {
         static void Main(string[] args)
         {
-            using (var img = new IplImage(@"/Users/admin/workspace/T est.png"))
+            using (var img = new IplImage(@"/Users/admin/workspace/Test.png"))
             {
                 Cv.SetImageROI(img, new CvRect(200, 200, 180, 200));
                 Cv.Not(img, img);
